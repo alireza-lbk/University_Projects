@@ -1,3 +1,4 @@
+#This is key generator of DES algorithm.
 from random import randrange
 # We have 2**56 or 72,057,594,037,927,936 permutations for valid key.
 key_number=randrange(0,72057594037927936)
